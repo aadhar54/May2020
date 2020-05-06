@@ -5,5 +5,5 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 
 ##Congratulations ,Sarthak Keshari has successfully submitted solution for 6May.1 and 6May.2 .
 
-##Congratulations ,Abhijit Nayak  has successfully submitted solution for 6May.3 and his pull requesthas been accepted.
+##Congratulations ,Abhijit Nayak  has successfully submitted solution for 6May.3 and his pull request has been accepted.
 
