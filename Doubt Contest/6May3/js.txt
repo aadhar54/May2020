@@ -1,0 +1,27 @@
+//Which quote do you need today
+
+Things available in NOde but not in Browser
+1.global
+2.module
+3.process
+
+Things available in NOde but not in Browser
+1.DOM
+2.BOM
+
+if(globalThis === global){
+	console.log("running in Nodejs Terminal")
+}
+else if(globalThis === window){
+	console.log("running in Browser")
+}
+else{
+	// You are not running JS
+}
+
+
+Deleting folder from terminal 
+rm -rf node_modules
+
+
+
