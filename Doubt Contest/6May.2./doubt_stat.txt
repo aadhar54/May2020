@@ -1,0 +1,1 @@
+WHY clrscr() is not working in DEV-C++ ?
