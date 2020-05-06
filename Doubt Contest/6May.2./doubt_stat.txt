@@ -1,1 +1,41 @@
-WHY clrscr() is not working in DEV-C++ ?
+https://www.hackerrank.com/challenges/diagonal-difference/problem
+
+Please help me in the above question .This is my code below.
+
+ #include <bits/stdc++.h>
+#include<iostream>
+using namespace std;
+int  main ()
+{
+    int diff, rows,column,i,j;
+	    int sum,sum1 ;
+  cin>>rows;
+  column=rows;
+  int arr[rows][column];
+  for(i=0;i<rows;i++)
+  {
+      for(j=0;j<column;j++)
+    {
+	cin>>arr[i][j];
+  }
+  }
+  
+
+for(j=0;j<rows;j++)
+  {
+  
+  	sum=sum+arr[j][j];
+  	
+}
+
+
+for(j=rows-1;j>=0;j--)
+{
+	sum1=sum1+arr[j][j];
+}
+
+diff=abs(sum-sum1);
+cout<<diff;
+ 
+return 0;
+}
