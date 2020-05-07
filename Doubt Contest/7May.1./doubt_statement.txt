@@ -1,0 +1,35 @@
+https://practice.geeksforgeeks.org/problems/kth-smallest-element/0
+
+COde to debug and correct:
+
+#include<bits/stdc++.h>
+#include<set>
+using namespace std;
+
+int main() 
+{
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	int t,k;
+	cin>>t;
+	for(int x=1;x<=t;x++)
+	{
+	    int n,s;
+	    cin>>n;
+	    set<int> A;
+	    for(int i=0;i<n;i++)
+	    {
+	        cin>>k;
+	        A.insert(k);
+	    }
+	    cin>>s;
+	    set<int>::iterator it=A.begin();
+	   for(int i=1;i<s;i++)
+	      it++;
+	   cout<<*it<<'\n';
+	    
+	}
+}
+
+//
+the above code exceeds time limit that is 1.636 secs. I am not getting any way to decrease the time. any suggestion would help.
