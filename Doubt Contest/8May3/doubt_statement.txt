@@ -1,0 +1,5 @@
+https://www.hackerrank.com/challenges/compare-the-triplets/problem
+This is my code:
+https://ide.codingblocks.com/s/14559
+
+All test cases not passing

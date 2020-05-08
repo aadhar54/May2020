@@ -1,0 +1,3 @@
+I am getting TLE for 9 test cases. How can i optimize my code
+ques:-https://www.hackerrank.com/contests/projecteuler/challenges/euler009
+mycode:-https://ide.codingblocks.com/#/s/28784
