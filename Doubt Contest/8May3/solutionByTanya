@@ -1,0 +1,22 @@
+#include<stdio.h>
+int atriplet[3],btriplet[3];
+int alicepoints = 0;
+int bobpoints = 0;
+
+int main() {
+    for (int i = 0; i < 3; i++) 
+    {
+        scanf("%d", &atriplet[i]);
+    }
+    for (int i = 0; i < 3; i++) 
+    {
+        scanf("%d", &btriplet[i]);
+    }
+    for(int i = 0; i < 3; i++)
+    {
+        if (atriplet[i] > btriplet[i]) alicepoints++;
+        if (atriplet[i] < btriplet[i]) bobpoints++;
+    }
+    printf("%d %d\n", alice_points, bob_points);
+    return 0;
+}
