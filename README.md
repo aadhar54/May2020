@@ -9,4 +9,5 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 ## Abhijit Nayak for 6May.3 
 ## Debasis Sahoo for 6May.1 
 ## Debasis Sahoo for 7May.1
+## Suyash Dubey for 6May.1
 
