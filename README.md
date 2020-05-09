@@ -6,7 +6,8 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 #### Congratulations top performers
 
 ## Sarthak Keshari  6May.1, 6May.2
-## Debasis Sahoo    6May.1, 7May.1
+## Debasis Sahoo    6May.1, 7May.1, 8May.1
 ## Suyash Dubey     6May.1, 6May.3
 ## Abhijit Nayak    6May.3
 ## Tanya Moghe      8May.3
+## Meher            May8.2, May8.3
