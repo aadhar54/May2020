@@ -1,0 +1,3 @@
+please help me out this. I've seen this in many competitive codings.  Wot does this test cases mean! How shud we include it in the pgm
+
+Refer th image

@@ -11,3 +11,4 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 ## Abhijit Nayak    || 6May.3
 ## Tanya Moghe      || 8May.3
 ## Meher            || May8.2, May8.3
+## Briju Demel || 8May.2

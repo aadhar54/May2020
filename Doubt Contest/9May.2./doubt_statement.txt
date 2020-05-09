@@ -1,0 +1,5 @@
+https://www.codechef.com/problems/COPS
+
+the doubt 8May.1 ie https://www.codechef.com/problems/COPS ..i wrote a code for it, checked any custom input and its working for all of them and even test run is ok but its showing wrong ans for submit. can u check my code and help me?
+// HEre is code which you have to correct
+https://ide.geeksforgeeks.org/xSFDu16Gsm
