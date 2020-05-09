@@ -13,7 +13,7 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 ## Tanya Moghe      || 8May.3
 ## Briju Demel || 8May.2
 ## Parth Saraf || 9May.1
-## Vaibhav Vaibhav Nagargoje || 9May.1
+## Vaibhav Nagargoje || 9May.1
 
 
 
