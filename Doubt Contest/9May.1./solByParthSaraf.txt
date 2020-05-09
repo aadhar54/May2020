@@ -1,0 +1,2 @@
+ The first line tells the number of strings taken for the test
+ Where the second string is for length of the string
