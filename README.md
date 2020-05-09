@@ -15,4 +15,7 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 ## Parth Saraf || 9May.1
 ## Vaibhav || 9May.1
 
+![alt text](https://github.com/aadhar54/May2020/blob/master/img/gitimage.jpg)
+
+![alt text](https://github.com/aadhar54/May2020/blob/master/image.jpg?raw=true)
 
