@@ -86,7 +86,7 @@ void printResult(string house , string qual,string month, string name, string co
 	cout<<"Dear "+name+" ,\nThe sorting hat has given a lot of thought and decided that a person born in the month of "+month+" with a fascination for "+color+" colour in all righteousness belongs to "+house+" .\n"+qual<<endl;
 	cout<<endl;
 	cout<<endl;
-	cout<<"With Best Regargds";
+	cout<<"With Best Regards";
 	cout<<endl;
 	cout << "\e[1mAlbus Percival Wulfric Brian Dumbledore\e[0m"<<endl;
 	
