@@ -1,0 +1,40 @@
+http://Hackerrank.com/challenges/birthday-cake-candles/editorial   
+
+For this question, my code is failing test cases
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i, n;
+    float arr[100];
+int result;
+    cout << "Enter total number of elements(1 to 100): ";
+    cin >> n;
+    cout << endl;
+
+    
+    for(i = 0; i < n; ++i)
+    {
+       
+       cin >> arr[i];
+    }
+    
+    for(i = 1;i < n; ++i)
+    {
+    
+       if(arr[0] < arr[i])
+           arr[0] = arr[i];
+    }
+    cout <<  arr[0];
+    
+    for(i=0;i<n;++i)
+    
+{
+	if(arr[i]=arr[0])
+	result++;
+}
+cout<<result;
+    return 0;
+}

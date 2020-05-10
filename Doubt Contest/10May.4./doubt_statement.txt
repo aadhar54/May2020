@@ -1,0 +1,13 @@
+Q. Write a programme to print  all the combinations or entered numbers.
+
+
+Input : 1234.....n
+Output : all the combinations possible.
+
+If I enter 123
+So output must be 123, 132, 213, 231, 312,321.
+
+My code is 
+https://ide.geeksforgeeks.org/53D2NpcnBk
+
+output hi nahi aa raha
