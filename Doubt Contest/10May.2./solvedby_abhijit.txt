@@ -1,0 +1,33 @@
+https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
+
+this code perfectly fine.
+
+
+#include<bits/stdc++.h>
+ using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    int k;
+    multiset<int, greater<int>> s;
+    for(int i=0;i<n;i++)
+    {
+        cin>>k;
+        s.insert(k);
+    }
+    int cnt=1;
+     multiset<int, greater<int>>::iterator it,it1;
+     for(it=s.begin();it!=s.end();it++)
+       {
+           it1=++it;
+           --it;
+           if(*it==*it1)
+             cnt++;
+            else
+              break;
+       }
+       cout<<cnt;
+    
+}
