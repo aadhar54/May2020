@@ -1,0 +1,47 @@
+This code will help. instead of going through all possible numbers and finding th number with the given
+digits is a hectic work, even for the compiler.
+
+
+example for INPUT:
+3
+1 2 3
+OUTPUT:
+1 2 3 
+1 3 2 
+2 1 3 
+2 3 1 
+3 2 1 
+3 1 2 
+
+
+#include<bits/stdc++.h>
+ using namespace std;
+    void combination(int *A,int start,int end)
+    {
+        if(start==end)
+        {
+            for(int j=0;j<end+1;j++)
+               cout<<A[j]<<" ";
+            cout<<'\n';
+        }
+        
+        for(int i=start;i<=end;i++)
+        {
+            swap(*(A+i),*(A+start));
+            combination(A,start+1,end);
+            swap(*(A+i),*(A+start));
+        }
+    }
+    
+    int main()
+    {
+        
+        long int n;
+        cin>>n;
+        int A[n];
+        for(int i=0;i<n;i++)
+        {
+            cin>>A[i];
+        }
+        combination(A,0,n-1);
+    }
