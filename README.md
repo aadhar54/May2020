@@ -9,11 +9,12 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 ## Suyash Dubey     || 6May.1, 6May.3, 9May.1
 ## Meher            || May8.2, May8.3
 ## Sarthak Keshari  || 6May.1, 6May.2
-## Abhijit Nayak    || 6May.3
+## Abhijit Nayak    || 6May.3, 10May.1, 10May.2, 10May.3, 10May.4
 ## Tanya Moghe      || 8May.3
 ## Briju Demel || 8May.2
 ## Parth Saraf || 9May.1
 ## Vaibhav Nagargoje || 9May.1, 9May.3
+## Aryan || 10May.1, 10May.2
 
 
 
