@@ -1,0 +1,21 @@
+https://www.hackerrank.com/challenges/mini-max-sum/problem
+
+
+the code for the above query:
+
+#include<string>
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   long long int A[5];
+   for(int i=0;i<5;i++)
+      cin>>A[i];
+    long long int sum=0,sum1=0;
+    sort(A,A+5);
+    for(int i=1;i<5;i++)
+       sum=sum+A[i];
+    for(int i=0;i<4;i++)
+       sum1=sum1+A[i];
+    cout<<sum1<<" "<<sum;
+}
