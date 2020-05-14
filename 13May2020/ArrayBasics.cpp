@@ -5,12 +5,16 @@ int main(){
 
 	int a[100];
 
+	//0 ........99 
+
 	a[0]=5;
+	cout<<a[1];
+
 
 	int b[5];
 	for(int j=0;j<5;j++){
 
-		cin>>b[j];
+		cin>>b[j];  // User Input 
 		cout<<b[j]<<endl;
 	}
 
@@ -21,7 +25,7 @@ int main(){
 	cout<<a[1]<<endl;
 	cout<<a[2]<<endl;
 */
-	cout<<sizeof(a)<<endl;
+	//cout<<sizeof(a)<<endl;
 /*
 	for(int i=0;i<=99;i++)
 		a[i]=i+1;

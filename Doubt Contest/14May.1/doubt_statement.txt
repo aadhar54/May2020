@@ -1,0 +1,41 @@
+https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1
+
+TLE error  is comming
+
+//Code :
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	//code
+	int T,i=0,j,n,c,m,k;
+	cin>>T;
+	while(i<T)
+	{
+	    cin>>n;
+	    int arr[n];
+	    for( j=0;j<n;j++)
+	        cin>>arr[j];
+	    
+	    for(j=0;j<n;j++)
+	    {
+	        c=0;
+	        m=arr[j];
+	        for(k=0;k<n;k++)
+	        {
+	            if(arr[k]==m) 
+	                c++;
+	        }
+	        if(c>n/2.0)
+	              {
+	                  cout<<arr[j]<<"\n";
+	                  break;
+	              }
+	    }
+	    if(c<=n/2.0)
+	        cout<<"-1\n";
+	   i++;
+	}
+	return 0;
+}
