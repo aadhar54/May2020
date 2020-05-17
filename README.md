@@ -11,7 +11,7 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 ## Parth Saraf 🔥 || 9May.1, 10May.1, 10May.2, 10May.5
 ## Aryan 🚀 || 10May.1, 10May.2, 10May.4, 14May.1
 ## Suyash Dubey  || 6May.1, 6May.3, 9May.1, 10May.1
-## Briju Demel || 8May.2, 14May.1
+## Briju Demel || 8May.2, 14May.1, 17May.2
 ## Meher          || May8.2, May8.3
 ## Sarthak Keshari  || 6May.1, 6May.2
 ## Tanya Moghe || 8May.3
