@@ -1,0 +1,35 @@
+Please expalin in detail how thi is working ??
+
+
+What would be printed from the following C++ program?
+
+filter_none
+edit
+play_arrow
+
+brightness_4
+#include <stdio.h> 
+  
+int main() 
+{ 
+    int arri[] = { 1, 2, 3 }; 
+    int* ptri = arri; 
+  
+    char arrc[] = { 1, 2, 3 }; 
+    char* ptrc = arrc; 
+  
+    printf("sizeof arri[] = %d ", sizeof(arri)); 
+    printf("sizeof ptri = %d ", sizeof(ptri)); 
+  
+    printf("sizeof arrc[] = %d ", sizeof(arrc)); 
+    printf("sizeof ptrc = %d ", sizeof(ptrc)); 
+  
+    return 0; 
+} 
+a) sizeof arri[] = 3 sizeof ptri = 4 sizeof arrc[] = 3 sizeof ptrc = 4
+b) sizeof arri[] = 12 sizeof ptri = 4 sizeof arrc[] = 3 sizeof ptrc = 1
+c) sizeof arri[] = 3 sizeof ptri = 4 sizeof arrc[] = 3 sizeof ptrc = 1
+d) sizeof arri[] = 12 sizeof ptri = 4 sizeof arrc[] = 3 sizeof ptrc = 4
+
+
+Explain why this answer ?

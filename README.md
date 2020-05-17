@@ -5,15 +5,15 @@ I am organising a doubt contest which aims to helps beginners learn pull request
 
 #### 🏆🤩🔥🔥 Congratulations top performers 🏆🤩🔥🔥
 
-## **Debasis Sahoo**  🏆  || 6May.1, 7May.1, 8May.1, 9May.1, 9May.3, 10May.2, 10May.3, 10May.4
-## Abhijit Nayak ⭐  || 6May.3, 10May.1, 10May.2, 10May.3, 10May.4
-## Suyash Dubey  🔥  || 6May.1, 6May.3, 9May.1, 10May.1
-## Vaibhav Nagargoje 🤩  || 9May.1, 9May.3, 10May.3, 10May.4
-## Parth Saraf 🚀 || 9May.1, 10May.1, 10May.2, 10May.5
+## **Debasis Sahoo**  🏆 || 6May.1, 7May.1, 8May.1, 9May.1, 9May.3, 10May.2, 10May.3, 10May.4
+## Vaibhav Nagargoje 🤩 || 9May.1, 9May.3, 10May.3, 10May.4, 10May.5
+## Abhijit Nayak ⭐ || 6May.3, 10May.1, 10May.2, 10May.3, 10May.4
+## Parth Saraf 🔥 || 9May.1, 10May.1, 10May.2, 10May.5
+## Suyash Dubey 🚀 || 6May.1, 6May.3, 9May.1, 10May.1
+## Briju Demel || 8May.2, 14May.1
 ## Meher          || May8.2, May8.3
 ## Sarthak Keshari  || 6May.1, 6May.2
 ## Aryan  || 10May.1, 10May.2
-## Briju Demel || 8May.2
 ## Tanya Moghe || 8May.3
 
 
