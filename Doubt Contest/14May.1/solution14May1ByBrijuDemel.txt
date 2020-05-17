@@ -1,0 +1,80 @@
+14 may 1 
+#include <iostream>
+using namespace std;
+void PrintDuplicates(int n,int* arr)
+{
+	int b[n/2];
+	b[0]=-1;
+	int c=0;
+	for(int j=0;j<n;j++)
+	{
+	
+		if(arr[j]!=-1)
+		{
+			int p=0;
+			for(int k=0;k<n;k++)
+			{
+	    		if(arr[k]==arr[j]&&k!=j)
+				{
+					if(p==0)				//will be useful when a no. repeats more than twice
+					{
+		        		b[c]=arr[k];
+		        		c++;
+		        		p++;
+	        		}
+	        		arr[k]=-1;
+				}
+			}
+		}
+	}
+	int temp;
+	if(b[0]==-1)
+	{
+		cout<<"-1\n";
+	}
+	else
+	{
+		int temp;
+		for(int i= 0; i<n/2; i++) 
+		{
+   			for(int j=i+1; j<n/2; j++)
+   			{
+      			if(b[j] < b[i]) 
+				{
+         			temp = b[i];
+         			b[i] = b[j];
+         			b[j] = temp;
+      			}
+   			}
+		}
+		for(int i=0;i <n/2;i++)
+		{
+			if(b[i]!=0)
+			{
+				cout<<b[i]<<"\t";
+			}
+		}
+        
+	}
+}
+int main() 
+{
+	int T;
+	cin>>T;
+	int i=0;
+	while(i<T)
+	{
+		int n;
+		cout<<"Size of array:\n";
+		cin>>n;
+		cout<<"Enter positive nos:\n";
+	    int arr[n];
+	    for(int j=0;j<n;j++)
+	    {
+	    	cin>>arr[j];
+		}
+		PrintDuplicates(n,arr);
+		i++;
+	}
+	return 0;
+}
