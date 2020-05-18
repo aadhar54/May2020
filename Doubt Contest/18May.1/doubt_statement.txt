@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int array[]={0,2,4,6,7,5,3};
+    int n,result=0;
+
+    for(n=0;n<8;n++)
+    {
+        result +=array[n];
+    }
+    cout<<result;
+    return 0;
+}
+
+
+The output in geekforgeeks is 27 but why do codeblocks have different output?
+And also how is the right solution as 27 .Please help .
