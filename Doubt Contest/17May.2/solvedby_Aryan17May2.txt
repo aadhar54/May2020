@@ -1,0 +1,15 @@
+The answer for the question depends on type of system used to compile the program.
+In case of 32-bit system: i)int datatype occupies    4-bytes.
+                          ii) char datatype occupies 1-byte.
+                          iii) pointer occupies      4-byte.
+ Hence the answer will be:
+ d) sizeof arri[] = 12 sizeof ptri = 4 sizeof arrc[] = 3 sizeof ptrc = 4
+      (3*4bytes)          (1*4bytes)        (3*1byte)       (1*4bytes)
+      
+ In case of 64-bit system:  i)int datatype occupies    4-bytes.
+                           ii) char datatype occupies  1-byte.
+                          iii) pointer occupies        8-bytes
+  Hence the answer will be:
+  sizeof arri[] = 12 sizeof ptri = 8 sizeof arrc[] = 3 sizeof ptrc = 8
+      (3*4bytes)          (1*8bytes)        (3*1byte)       (1*8bytes)                  
+              
