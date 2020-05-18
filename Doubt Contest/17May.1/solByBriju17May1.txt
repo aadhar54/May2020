@@ -1,0 +1,41 @@
+#include <iostream>
+#include <string> 
+using namespace std;
+int main()
+{
+	string url;
+	cout<<"Enter Link:\n";
+	cin>>url;
+	int k=0,n=url.length();
+	if(n<=100)
+	{
+		string t[5]={"username","pwd","profile","role","key"};
+		for (int i=0;i<n;i++)
+		{
+			if (url[i]=='=')
+			{
+				cout<<t[k]<<" :\t";
+				k++;
+				int j=i+1;
+				while(true)
+				{
+					if(url[j]=='&'||url[j]=='\0')
+					{
+						cout<<"\n";
+						break;
+					}
+					else
+					{
+						cout<<url[j];
+					}
+					j++;
+				}
+			}
+		}
+	}
+	else
+	{
+		cout<<"Invalid URL. Length is more than 100.\n";
+	}
+}
+/* Test Link: http://www.cleartrip.com/signin/service?username=test&pwd=test&profile=develop&role=ELITE&key=man*/
