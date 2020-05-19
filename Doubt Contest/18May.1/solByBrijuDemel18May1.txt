@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int array[7]={0,2,4,6,7,5,3};
+    int n,result=0;
+    for(n=0;n<8;n++)
+    {
+        result +=array[n];
+    }
+    cout<<result;
+    return 0;
+}
+
+
+/*Question: The output in geekforgeeks is 27 but why do codeblocks have different output?
+And also how is the right solution as 27 .Please help .
+
+
+Answer: CODEBLOCKS IS ALSO PROVIDING THE SAME OUTPUT!
+
+		The for loop adds all the elements of the array,and the compiler considers the out-of-boundry elements(array[7] is not a member of the array) value to be zero.
+		Thereby provides the result as 27(0+2+4+6+7+5+3).
+*/

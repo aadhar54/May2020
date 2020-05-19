@@ -1,0 +1,41 @@
+Problem link
+
+https://practice.geeksforgeeks.org/problems/maximum-index/0
+
+
+//TLE error
+//Please explain how to modify
+#include <iostream>
+using namespace std;
+
+int main() {
+	//code
+	int T,N,i,j,k,max,diff;
+	cin>>T;
+	for(i=0;i<T;i++)
+	{
+	    cin>>N;
+	    int arr[N];
+	    for(j=0;j<N;j++)
+	         cin>>arr[j];
+	    max=0;      
+	    for(j=0;j<N;j++)
+	    {
+	        
+	        for(k=j;k<N;k++)
+	        {
+	            if(arr[j]<=arr[k])
+	            {
+	                diff=k-j;
+	                if(diff>max)
+	                {
+	                    max=diff;
+	                }
+	            }
+	                   
+	        }
+	    }
+	    cout<<max<<endl;
+	}
+	return 0;
+}
