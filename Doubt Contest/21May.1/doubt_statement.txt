@@ -1,0 +1,46 @@
+https://practice.geeksforgeeks.org/problems/majority
+
+Code to debug and pass test cases :
+
+#include <iostream>
+using namespace std;
+void findmaj(int a[n],int n)
+{
+    int maxc=0;
+    int index=-1;
+    for(int i=0;i<n;i++)
+    {
+        int c=0;
+        for(int j=0;j<n;j++)
+        {
+            if(a[i]==a[j])
+            {
+                c++;
+            }
+        }
+        
+        if(c>maxc)
+        {
+            maxc=c;
+            index=i;
+        }
+    }
+    if(maxc>n/2)
+    cout<<"Majority element is:"<<a[index];
+    else
+    cout<<"Majority element not found";
+}
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n,a[n];
+	    cin>>n;
+	    for(int i=0;i<n;i++)
+	         {cin>>a[n];}
+	   findmaj (a[n],n);
+	    }
+	    return 0;
+	}
