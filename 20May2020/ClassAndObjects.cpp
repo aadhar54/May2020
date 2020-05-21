@@ -15,10 +15,10 @@ public:
 int main() {
     //static int a;
     Car C;
-    cout<<C.price; //garbage value
+    cout<<C.price; //zero
     //Initialisation
-    C.price =500;
-    cout<<C.price; //
+    C.price =500; 
+    cout<<C.price<<endl; // 500
     C.model_no = 1001;
     C.name[0] = 'B';
     C.name[1] = 'M';

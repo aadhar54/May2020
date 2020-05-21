@@ -1,4 +1,4 @@
-The public keyword is an access specifier. Access specifiers define how the members (attributes and methods) of a class can be accessed. In the example above, the members are public - which means that they can be accessed and modified from outside the code.
+The public keyword is an access specifier. Access specifiers define how the members (attributes and methods) of a class can be accessed. 
 
 However, what if we want members to be private and hidden from the outside world?
 
@@ -34,4 +34,5 @@ Example
 class MyClass {
   int x;   // Private attribute
   int y;   // Private attribute
+  y = 100; //this is possible but outside the class not allowed
 };
