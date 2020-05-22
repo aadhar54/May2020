@@ -6,6 +6,7 @@ using namespace std;
 	class Human{
 
 		protected :
+			//int speedOfBrain = 200; gves error 
 			char hasEmotions[10] ="Yes";
 			char understandsSarcasm[10] = "Yes";
 			char feelsPain[10] = "Yes";

@@ -41,17 +41,17 @@ class SirDirubai : public Human{
 
 class MukeshA : public SirDirubai{
 	protected:
-		
 		char iplTeam[20]="Mumbai Indians";
 		int numberOfCars = 500;
 		int numberOfJets = 200;
+		int noOfhair = 10;
 	
 };
 
 class Anant : public MukeshA{
 	private :
 		string college = "Down University";
-	
+		//int noOfhair = 1000;
 
 };
 
@@ -70,6 +70,9 @@ int main(){
 	Anant a ;
 	a.setAge(100);
 	a.print();
+	cout<<endl;
+	cout<<a.noOfhair<<endl; 
+	// gives error  WHY HW ???
 
 	return 0;
 }
