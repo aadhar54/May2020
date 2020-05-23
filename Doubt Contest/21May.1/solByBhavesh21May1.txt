@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int size;   //Initialistion of array size.
+	cin>>size;
+	int a[size],c=0,i,b[size],j=0,index,d,l;
+	cout<<"enter the elements";
+	for(i=0;i<size;i++)
+	{
+	cin>>a[i];              //Inputs in array.
+	}
+	for(i=0;i<size;i++)	
+	{
+	b[i]=a[i];              //copying elements of array a to array b.
+	}
+	for(i=0;i<size;i++)
+	{
+		d=0;c=0,l=0;
+		for(j=0;j<size;j++)
+		{
+		if(a[i]==b[j])
+		{
+		 c++;	                //if the elements are same Counts incremented.
+		}
+		}
+			d=size/2;
+			l=a[i];
+	
+	}
+		if(c>d)              //If the count is greater than Half the size of array Majority is found.
+		{
+			cout<<"Majority Element founded is "<<l;
+		}
+		else                  //If the count is not greater Majority not found.
+		{
+			cout<<"Majority Elemnt Not Found";
+		}
+
+return 0;
+}
