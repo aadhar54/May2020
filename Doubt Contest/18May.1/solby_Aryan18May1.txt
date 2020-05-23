@@ -1,0 +1,5 @@
+Firstly,array is initiaised with 7 elements that are 0,2,4,6,7,5,3.
+Now,another variable called result is initialised with value zero.
+Then for loop is allowed to run for 8 times (from 0 to 7==>8 times) and every time element present in the array is added to the result like this:
+result=0+2+4+6+7+5+3+0    [since last element of array was not initialise so by defuat it was initialised with zero]
+ Thus answer is 27.  
