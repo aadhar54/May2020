@@ -1,0 +1,10 @@
+In int main() the size of array is 60 as :
+{ 15 elements *4byte=60.}
+
+But when we pass array as a function of pointer it copies the address of the first element of array n pass it as a pointer. By this address we can access the rest of the elements.
+
+So in the function when array is passed it is now a pointer and not an array.
+
+As the size of pointer is the same as the size of the data type it points to, The size of array is also 8 byte in 64-bit compiler.
+
+But in 32-bit it’s size will be 4 byte.

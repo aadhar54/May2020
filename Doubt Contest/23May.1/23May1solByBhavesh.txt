@@ -1,0 +1,42 @@
+// * In this function why is the size of array 8 and not 60? ---> This is the question asked.
+
+//* Solved By BHAVESH. B
+
+ // In the function takearray() and takearray2() it Returns the size as 8 bytes because Sizeof(arr) Return Only the pointer size not 
+ // the exact size of an array.Though the size of the pointer varies according to the system memory .
+ // If the system is 32  bit it returns the pointer value as 4 Bytes and in 64 bit it returns the pointer value as 8 bytes.
+ // I guessed that Rakshith who added doubt statement would compile this program in 64 bit system so he got the value as 8 Bytes.
+
+
+
+
+#include<iostream>
+using namespace std;
+void takeArray(int *arr){
+cout<<"In this take Array function"<<endl;
+cout<<sizeof(arr)<<endl;     
+}
+void takeArray2(int arr[]){
+cout<<"In this take Array function"<<endl;
+cout<<sizeof(arr)<<endl;
+cout<<arr[1]<<arr[2]<<arr[3]<<arr[4]<<arr[5]<<endl;
+}
+int findSum(int *arr,int n){
+int sum =0;
+for(int i=0;i<n;i++){
+sum = sum + *(arr + i);
+}
+return sum;
+}
+int main(){
+int arr[] = {1,2,3,4,5,3,3,4,5,5,2,6,6,7,78};
+cout<<"In Main"<<endl;
+cout<<sizeof(arr)<<endl;
+int l = sizeof(arr)/sizeof(arr[0]);
+takeArray(arr);
+takeArray2(arr);
+findSum(arr , l);
+int n = sizeof(arr)/sizeof(int);
+cout<<n<<endl;
+return 0;
+}
