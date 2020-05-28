@@ -28,7 +28,11 @@ class Sample
 int main() { 
 	
 	Sample obj1; 
-	
+	int x;
+	cin>> x; 
+
+	//check data type and call function accordingly HW
+
 	// Which function is called will depend on the parameters passed 
 	// The first 'func' is called 
 	obj1.func(7); 

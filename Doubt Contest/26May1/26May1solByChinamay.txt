@@ -1,0 +1,9 @@
+The code is almost perfect.
+Only u need to print the last ‘cout’ line like this;
+
+cout<<”The number can be expressed as a sum of two prime numbers as :”<<c<<”=”<<a<<”+”<<b<<endl;
+
+Just replace last cout like this and the code runs perfectly.
+
+We do like this coz ‘=’ ,’+’ ,’-‘ ,’*’ sign cannot be interpreted by complier as they interpret the variable or arguments.
+So we put them in double quotes for them to be displayed on the screen.
